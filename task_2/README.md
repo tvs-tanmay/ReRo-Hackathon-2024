@@ -41,7 +41,7 @@ output= Kp*error +Iterm + Kd*(error - previous error)$
    - Once you are confident in your PID controller implementation, take screenshots of your plot and copy your `Kp`,`Kd` and `Ki` values in a text file in a folder with your team name and upload the folder to your google drive and send the link of the drive (make sure it is public)
 
    ```folder structure
-   .└── <TEAM_NAME>/
+   .└── task_2_<TEAM_NAME>/
       ├── pid_values.txt
       └── screenshots(folder)/
           └── .png
