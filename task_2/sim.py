@@ -446,6 +446,10 @@ def main():
         Beta=0.95              # Bean ε
     )
 ### EDIT YOUR PID VALUES HERE ###
+    '''
+    You need to tune the PID values to get the desired temperature profile. 
+    So that the true bean temp plot is as close as possible to the target temp plot.
+    '''
     pid = PIDController(
         Kp=0.0,    # Increased Proportional gain for better responsiveness
         Ki=0.0,   # Decreased Integral gain to reduce overshoot
