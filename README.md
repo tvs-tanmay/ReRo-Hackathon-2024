@@ -1,4 +1,4 @@
-# ReRo Hackathon 
+# ReRo Online Hackathon - Round 0
 
 ### Steps to follow:
 Go to the task folders and read up on the description(the README.md files) 
