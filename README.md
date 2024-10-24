@@ -5,7 +5,7 @@ Go to the task folders and read up on the description(the README.md files)
 
 1. **Clone Repo**
    ```bash
-   git clone https://github.com/pramath-haritz/ReRo-hackathon-tasks.git
+   git clone https://github.com/pramath-haritz/rero-hackathon-24.git
    ```
    - If you do not have `git` then you can download it here [git download link](https://git-scm.com/downloads)
    - You also have the option to download the repo directly on github. 
