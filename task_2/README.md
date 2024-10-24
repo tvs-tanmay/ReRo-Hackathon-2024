@@ -16,10 +16,11 @@ output= Kp*error +Iterm + Kd*(error - previous error)$
 ### Steps to follow:
 
 1. **Navigate to the Task Directory**
-   - Go to the `task_1` folder where the files `sim.py` and `pid_controller.py` are located.
+   - Go to the `task_2` folder where the files `sim.py` and `pid_controller.py` are located.
+     
 
    ```bash
-   cd path/to/task_1
+   cd path/to/task_2
    
 2. **Edit the PID Controller**
    - Open the `sim.py` file in your preferred editor to implement or adjust the PID controller and save the file.
