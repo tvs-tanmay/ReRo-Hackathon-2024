@@ -23,7 +23,8 @@ output= Kp*error +Iterm + Kd*(error - previous error)$
    cd path/to/task_2
    
 2. **Edit the PID Controller**
-   - Open the `sim.py` file in your preferred editor to implement or adjust the PID controller and save the file.
+3. 
+   - Open the `pid_controller.py` file in your preferred editor to implement the PID controller and save the file.
    - Inside the `sim.py` file, define the PID controller parameters (`Kp`, `Ki`, `Kd`) and implement the control logic in the given function. Make sure to adjust the parameters to achieve stable control of the temperature.
    - ## **dont make any changes to the sim.py except the (`Kp`, `Ki`, `Kd`)**
    ```code-block
@@ -32,13 +33,13 @@ output= Kp*error +Iterm + Kd*(error - previous error)$
    Ki=0.0,   # Decreased Integral gain to reduce overshoot
    Kd=0.0     # Increased Derivative gain to dampen oscillations)
 
-3. **Test the PID Controller**
+4. **Test the PID Controller**
    - Run the `sim.py` file to simulate the roasting process and check the performance of your PID controller. The script will generate output showing the temperature profile and whether it meets the desired curve
 
    ```bash
    python sim.py
 
-4. **Submit Your Solution**
+5. **Submit Your Solution**
    - Once you are confident in your PID controller implementation, take screenshots of your plot and copy your `Kp`,`Kd` and `Ki` values in a text file in a folder with your team name and upload the folder to your google drive and send the link of the drive (make sure it is public)
 
    ```folder structure
