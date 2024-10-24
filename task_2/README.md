@@ -5,7 +5,7 @@
 ### Objective:
 Simulate a coffee roasting process to control the bean temperature using a PID (Proportional-Integral-Derivative) controller. The goal is to maintain a precise temperature profile over time to ensure optimal coffee roasting, targeting specific roast milestones. Participants need to implement the roasting system in Python and tune the PID parameters to closely follow a target temperature curve.
 
-![c24860bd-7a2e-464b-a99d-c2ee84ac40f2](https://github.com/user-attachments/assets/900adaf5-20ba-446d-96fb-c7233a48f5bb)
+[c24860bd-7a2e-464b-a99d-c2ee84ac40f2](https://github.com/user-attachments/assets/5ce69928-52e2-4e0f-a532-cfc25f730e76)
 
 **PID Equation**
 
