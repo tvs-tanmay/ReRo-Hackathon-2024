@@ -10,7 +10,7 @@ Simulate a coffee roasting process to control the bean temperature using a PID (
 **PID Equation**
 
 ```
-output= Kp*error +Iterm + Kd*(error - previous error)$
+output= Kp*error +Iterm + Kd*(error - previous error)
 ```
 
 ### Steps to follow:
@@ -40,7 +40,7 @@ output= Kp*error +Iterm + Kd*(error - previous error)$
    python sim.py
 
 5. **Submit Your Solution**
-   - Once you are confident in your PID controller implementation, take screenshots of your plot and copy your `Kp`,`Kd` and `Ki` values in a text file in a folder with your team name and upload the folder to your google drive and send the link of the drive (make sure it is public)
+   - Once you are confident in your PID controller implementation, take a screenshot of your plot and copy your `Kp`,`Kd` and `Ki` values in a text file in a folder with your team name and upload the folder to your google drive and send the link of the drive (make sure it is public)
 
    ```folder structure
    .└── task_2_<TEAM_NAME>/
