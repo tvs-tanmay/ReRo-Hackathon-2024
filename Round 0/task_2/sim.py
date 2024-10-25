@@ -451,9 +451,9 @@ def main():
     So that the true bean temp plot is as close as possible to the target temp plot.
     '''
     pid = PIDController(
-        Kp=0.0,    # Increased Proportional gain for better responsiveness
-        Ki=0.0,   # Decreased Integral gain to reduce overshoot
-        Kd=0.0     # Increased Derivative gain to dampen oscillations
+        Kp=96.0,    # Increased Proportional gain for better responsiveness
+        Ki=0.25,   # Decreased Integral gain to reduce overshoot
+        Kd=72.0     # Increased Derivative gain to dampen oscillations
     )
 ### EDIT YOUR PID VALUES HERE ###
     # Run simulation
