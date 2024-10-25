@@ -21,5 +21,9 @@ https://robocraze.com/products/5-channel-ir-infrared-ctrt5000-line-detection-mod
 
 > Max rpm of motors = 100
 
+> 90rpm in the demo video when it is on a straight line!
+
+
+
 
 
